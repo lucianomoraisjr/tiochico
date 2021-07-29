@@ -50,7 +50,10 @@ const CountDown = ({
     }
 
     return(
+        <div>
+            <img src="/fugura11.jpeg"></img>
         <div className="countdown-container">
+             
             <h1 className="title">
                 {Title}
             </h1>
@@ -59,6 +62,7 @@ const CountDown = ({
             </h2>
 
             <div className="time-container">
+           
                { TimeData.map( (item, index) =>  
                     <TimeItem 
                         ItemKey = {index}
@@ -72,8 +76,9 @@ const CountDown = ({
                )}
                
             </div>
-            <img src="https://images.uncyc.org/pt/f/fa/Affest2.jpg"></img>
+            <img src="/fugura12.jpeg"></img>
         </div>    
+        </div>
     )
 
 }
